@@ -6,3 +6,4 @@ The board connects via WiFi to a Raspberry Pi 3, that acts as as concentrator / 
 The Raspberry connects to Rocrail via Ethernet using RocNet.
 Most of the parameters can be changed via browser. 
 The Board can be ordered from SeeedStudio (public domain). For soldering it is recommended to order a sencil with the board.
+Drawings and BOM can be published if requested.
