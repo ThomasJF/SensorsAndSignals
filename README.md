@@ -18,6 +18,8 @@ Sound: If a MP3 Player is connected to a board it is adressed the same way as th
 A sound can either be played by specifying the choosen sound to be activeated when a sensor gets active (0 means stop current playing, -1 (255) means do nothing.). In Rocrail a "Action" can be defined the playes a sound. Action Type= Sound and only the address is relevant. The Player-(Signal-)-Number and the sound number are defined in the parameter field:
 "sssplaynnnn" sss=signal number (allways 3 digits) nnnn=sound number (allways 4 digits. The sound files are stored in the player directly in the root directory with the names 0001.mp3 ..... 0254.mp3. So 014play0123 means play sound 0123.mp3 on board 14.
 play0000 means stop playing.
+The feature is meant to be used to play decentralised sounds at the places where they belong to (e.g. remote stations, crossings...).
+Teh interface is defined for a DFPlayer Mini (DFR0299). 
 
 Opcodes to an from Rocnet:
 
